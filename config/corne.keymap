@@ -20,10 +20,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
- &kp ESC   &kp Q   &kp D                   &kp R                     &kp W                   &kp B        &kp J      &kp F                  &kp U    &kp P  &kp MINUS                   &kp BACKSPACE
- &kp TAB   &kp A   &kp S                   &kp H                     &kp T                   &kp G        &kp Y      &kp N                  &kp E    &kp O      &kp I         &mt RIGHT_CONTROL EQUAL
-   &mo 3   &kp Z   &kp X                   &kp M                     &kp C                   &kp V        &kp K      &kp L              &kp COMMA  &kp DOT  &kp SLASH  &mt RIGHT_COMMAND SINGLE_QUOTE
-                          &mt LEFT_ALT BACKSLASH  &mt LEFT_SHIFT SEMICOLON  &mt LEFT_COMMAND SPACE  &lt 1 SPACE  &lt 2 ESC  &mt RIGHT_SHIFT ENTER
+ &kp ESC   &kp Q   &kp D                   &kp R                     &kp W                   &kp B        &kp J        &kp F                  &kp U    &kp P         &kp MINUS            &kp BACKSPACE
+ &kp TAB   &kp A   &kp S                   &kp H                     &kp T                   &kp G        &kp Y        &kp N                  &kp E    &kp O             &kp I  &mt RIGHT_CONTROL EQUAL
+   &mo 3   &kp Z   &kp X                   &kp M                     &kp C                   &kp V        &kp K        &kp L              &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &mt RIGHT_COMMAND SLASH
+                          &mt LEFT_ALT BACKSLASH  &mt LEFT_SHIFT SEMICOLON  &mt LEFT_COMMAND SPACE  &lt 1 SPACE  &lt 2 SLASH  &mt RIGHT_SHIFT ENTER
             >;
         };
 
@@ -60,8 +60,8 @@
         Layer__3 {
             bindings = <
  &trans  &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_AUTO  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_MAXIMUM  &trans  &trans  &trans  &trans  &trans  &trans
- &trans                &kp K_STOP          &kp K_VOL_DN             &kp K_MUTE          &kp K_VOL_UP               &kp K_SLEEP  &trans  &trans  &trans  &trans  &trans  &trans
- &trans              &kp C_REWIND            &kp K_PREV               &kp K_PP            &kp K_NEXT        &kp C_FAST_FORWARD  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans                &kp C_STOP          &kp C_VOL_DN             &kp K_MUTE          &kp C_VOL_UP          &kp C_SLEEP_MODE  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans              &kp C_REWIND       &kp C_KBIA_PREV               &kp C_PP       &kp C_KBIA_NEXT        &kp C_FAST_FORWARD  &trans  &trans  &trans  &trans  &trans  &trans
                                                                         &trans                &trans                    &trans  &trans  &trans  &trans
             >;
         };
