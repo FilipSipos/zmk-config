@@ -21,7 +21,7 @@
 
             bindings = <
 &kp ESC  &kp Q  &kp D                   &kp R                     &kp W                   &kp B        &kp J        &kp F                  &kp U    &kp P     &kp BACKSPACE                    &kp A
-&kp TAB  &kp A  &kp S                   &kp H                     &kp T                   &kp G        &kp Y        &kp N                  &kp E    &kp O             &kp I                    &kp S
+&kp TAB  &kp A  &kp S                   &kp H                     &kp T                   &kp G        &kp Y        &kp N                  &kp E    &kp O             &kp I  &mt RIGHT_CONTROL EQUAL
   &mo 3  &kp Z  &kp X                   &kp M                     &kp C                   &kp V        &kp K        &kp L              &kp COMMA  &kp DOT  &kp SINGLE_QUOTE  &mt RIGHT_COMMAND SLASH
                        &mt LEFT_ALT BACKSLASH  &mt LEFT_SHIFT SEMICOLON  &mt LEFT_COMMAND SPACE  &lt 1 SPACE  &lt 2 SLASH  &mt RIGHT_SHIFT ENTER
             >;
@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp GRAVE  &kp ASTERISK           &kp UP  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp EQUAL        &kp N7  &kp NUMBER_8        &kp N9       &kp ASTERISK  &trans
-&trans  &kp CARET      &kp LEFT         &kp DOWN             &kp RIGHT            &kp PERCENT     &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp LEFT_BRACKET  &trans
- &mo 3     &kp AT      &kp HASH  &kp EXCLAMATION            &kp DOLLAR          &kp AMPERSAND  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET  &trans
+&trans  &kp GRAVE  &kp ASTERISK           &kp UP  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp EQUAL        &kp N7  &kp NUMBER_8        &kp N9       &kp ASTERISK  &kp BACKSPACE
+&trans  &kp CARET      &kp LEFT         &kp DOWN             &kp RIGHT            &kp PERCENT     &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp LEFT_BRACKET         &trans
+ &mo 3     &kp AT      &kp HASH  &kp EXCLAMATION            &kp DOLLAR          &kp AMPERSAND  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET         &trans
                                           &trans                &trans                 &trans        &trans        &trans        &trans
             >;
         };
@@ -50,7 +50,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_CLR  &kp CARET  &kp AMPS    &kp UP   &kp LPAR  &kp RPAR  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_CLR  &kp CARET  &kp AMPS    &kp UP   &kp LPAR  &kp RPAR     &kp
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp MINUS  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &trans
  &mo 3  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp UNDER  &kp PLUS  &kp LBRC   &kp RBRC  &kp PIPE  &trans
                                           &trans        &trans        &trans     &trans    &trans    &trans
