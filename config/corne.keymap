@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_CLR  &kp CARET  &kp AMPS    &kp UP   &kp LPAR  &kp RPAR     &kp
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp MINUS  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &trans
- &mo 3  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp UNDER  &kp PLUS  &kp LBRC   &kp RBRC  &kp PIPE  &trans
-                                          &trans        &trans        &trans     &trans    &trans    &trans
+&trans     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &bt BT_CLR       &kp CARET  &kp AMPERSAND    &kp UP_ARROW      &kp KP_LPAR  &kp KP_RPAR  &trans
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5       &kp MINUS       &kp LEFT  &kp DOWN_ARROW        &kp RIGHT     &kp BSLH  &trans
+ &mo 3  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp UNDERSCORE    &kp KP_PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp PIPE  &trans
+                                                   &trans           &trans           &trans          &trans         &trans          &trans
             >;
         };
 
@@ -63,15 +63,6 @@
 &trans                &kp C_STOP          &kp C_VOL_DN             &kp K_MUTE          &kp C_VOL_UP          &kp C_SLEEP_MODE  &trans  &trans  &trans  &trans  &trans  &trans
 &trans              &kp C_REWIND       &kp C_KBIA_PREV               &kp C_PP       &kp C_KBIA_NEXT        &kp C_FAST_FORWARD  &trans  &trans  &trans  &trans  &trans  &trans
                                                                        &trans                &trans                    &trans  &trans  &trans  &trans
-            >;
-        };
-
-        Layer__4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
